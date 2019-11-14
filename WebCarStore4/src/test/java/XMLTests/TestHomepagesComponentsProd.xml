@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestAllHome" thread-count="1" parallel="test">
+
+    <test name="HomePageComponents">
+        <classes>
+            <class name="Peugeot.HPCompFrTest" />
+          
+        </classes>
+    </test>
+
+</suite>

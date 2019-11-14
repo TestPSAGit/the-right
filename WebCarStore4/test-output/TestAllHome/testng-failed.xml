@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [TestAllHome]">
+  <test name="HomePageComponents">
+    <classes>
+      <class name="Peugeot.HPCompFrTest"/>
+      <class name="Peugeot.HPCompItTest"/>
+      <class name="Peugeot.HPCompESTest"/>
+      <class name="Peugeot.HPCompBeFrTest"/>
+      <class name="Peugeot.HPCompBeNlTest"/>
+      <class name="Citroën.HPCompFrTest"/>
+      <class name="Citroën.HPCompItTest"/>
+      <class name="Citroën.HPCompESTest"/>
+      <class name="DS.HPCompFrTest"/>
+      <class name="DS.HPCompItTest"/>
+      <class name="DS.HPCompESTest"/>
+    </classes>
+  </test> <!-- HomePageComponents -->
+  <test name="HomePageComponents(failed)">
+    <classes>
+      <class name="Peugeot.HPCompBeFrTest">
+        <methods>
+          <include name="TheTextUnderThePageTitleIsCorrect"/>
+          <include name="GotTheCookiesPopUp"/>
+          <include name="GotTheRightUrlWhenClickingOnUsedCarsLink"/>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- Peugeot.HPCompBeFrTest -->
+      <class name="DS.HPCompFrTest">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- DS.HPCompFrTest -->
+      <class name="DS.HPCompItTest">
+        <methods>
+          <include name="GotTheUserGeneralConditionsPage"/>
+          <include name="AfterTest"/>
+          <include name="GotFacebookPageWhenClickingTheFacebookIcone"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- DS.HPCompItTest -->
+      <class name="Citroën.HPCompFrTest">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="AfterTest"/>
+          <include name="TheTextUnderThePageTitleIsCorrect"/>
+        </methods>
+      </class> <!-- Citroën.HPCompFrTest -->
+      <class name="Peugeot.HPCompBeNlTest">
+        <methods>
+          <include name="GotToHomePageWhenClickingOnThePeugeotLogo"/>
+          <include name="BeforeTest"/>
+          <include name="AfterTest"/>
+          <include name="GotTheRightUrlWhenClickingOnTheFAQLink"/>
+          <include name="GotTheRightUrlWhenClickingOnUsedCarsLink"/>
+        </methods>
+      </class> <!-- Peugeot.HPCompBeNlTest -->
+      <class name="DS.HPCompESTest">
+        <methods>
+          <include name="GotTheUserGeneralConditionsPage"/>
+          <include name="BeforeTest"/>
+          <include name="GotFacebookPageWhenClickingTheFacebookIcone"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- DS.HPCompESTest -->
+      <class name="Citroën.HPCompESTest">
+        <methods>
+          <include name="GotTheRightUrlWhenClickingOnTheDealersLink"/>
+          <include name="TheTextUnderThePageTitleIsCorrect"/>
+          <include name="GotFacebookPageWhenClickingTheFacebookIcone"/>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- Citroën.HPCompESTest -->
+      <class name="Peugeot.HPCompESTest">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="GotTheCookiesPopUp"/>
+        </methods>
+      </class> <!-- Peugeot.HPCompESTest -->
+      <class name="Peugeot.HPCompFrTest">
+        <methods>
+          <include name="GotTheRightUrlWhenClickingOnTheFAQLink"/>
+          <include name="TheMySaveTextIsDisplayed"/>
+          <include name="BeforeTest"/>
+          <include name="ThePageTitleisCorrect"/>
+          <include name="AfterTest"/>
+          <include name="GotTheRightUrlWhenClickingOnTheOrderStepsLink"/>
+          <include name="GotToHomePageWhenClickingOnThePeugeotLogo"/>
+          <include name="GotTheRightUrlWhenClickingOnWebsotrePaimentLink"/>
+          <include name="GotTheRightUrlWhenClickingOnTheDelieveryStepsLink"/>
+          <include name="TheTextUnderThePageTitleIsCorrect"/>
+        </methods>
+      </class> <!-- Peugeot.HPCompFrTest -->
+      <class name="Citroën.HPCompItTest">
+        <methods>
+          <include name="GotTheRightUrlWhenClickingOnWebsotrePaimentLink"/>
+          <include name="GotTwiterPageWhenClickingTheTwiterIcone"/>
+          <include name="GotTheRightUrlWhenClickingOnTheDealersLink"/>
+          <include name="BeforeTest"/>
+          <include name="GotFacebookPageWhenClickingTheFacebookIcone"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- Citroën.HPCompItTest -->
+      <class name="Peugeot.HPCompItTest">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- Peugeot.HPCompItTest -->
+    </classes>
+  </test> <!-- HomePageComponents(failed) -->
+</suite> <!-- Failed suite [TestAllHome] -->

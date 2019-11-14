@@ -1,0 +1,519 @@
+<html>
+<head>
+<title>TestNG:  PeugeotHomePageComponents</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PeugeotHomePageComponents</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/88</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 11 14:19:48 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (349 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotAPopupWhenClickingOnNeedHelpBotton()'><b>GotAPopupWhenClickingOnNeedHelpBotton</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheGeneralInformationPage()'><b>GotTheGeneralInformationPage</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink()'><b>GotTheRightUrlWhenClickingOnTheDelieveryStepsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink()'><b>GotTheRightUrlWhenClickingOnTheOrderStepsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheSellGeneralConditionsPDF()'><b>GotTheSellGeneralConditionsPDF</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheMySaveIconIsDisplayed()'><b>TheMySaveIconIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheMySaveTextIsDisplayed()'><b>TheMySaveTextIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheNeedHelpIconeIsDisplayed()'><b>TheNeedHelpIconeIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheNeedHelpTextIsDisplayed()'><b>TheNeedHelpTextIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheSellGeneralConditionsTextIsPresent()'><b>TheSellGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@6fb0d3ed</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@10d59286</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@fe18270</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@6dde5c8c</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@5123a213</td></tr>
+</table><p>
+</body>
+</html>

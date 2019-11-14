@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestAllHome" parallel="methods" thread-count="1">
+
+    <test name="HomePageComponents">
+        <classes>
+            <class name="Peugeot.HPCompFrTest" />
+        
+        </classes>
+    </test>
+
+
+</suite>

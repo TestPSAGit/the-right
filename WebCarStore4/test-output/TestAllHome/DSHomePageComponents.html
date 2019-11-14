@@ -1,0 +1,517 @@
+<html>
+<head>
+<title>TestNG:  DSHomePageComponents</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>DSHomePageComponents</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/69</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 11 14:19:49 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (147 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.BeforeTest()'><b>BeforeTest</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1118e5b84ae721994f84ec05278bc726
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743)
+	at Citroën.HPCompItTest.BeforeTest(HPCompItTest.java:27)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace307400933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace307400933'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1118e5b84ae721994f84ec05278bc726
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:743)
+	at Citroën.HPCompItTest.BeforeTest(HPCompItTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.BeforeTest()'><b>BeforeTest</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.BeforeTest()'><b>BeforeTest</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.BeforeTest()'><b>BeforeTest</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='DS.HPCompFrTest.GotAPopupWhenClickingOnNeedHelpBotton()'><b>GotAPopupWhenClickingOnNeedHelpBotton</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink()'><b>GotTheRightUrlWhenClickingOnTheDelieveryStepsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink()'><b>GotTheRightUrlWhenClickingOnTheOrderStepsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheSellGeneralConditionsPDF()'><b>GotTheSellGeneralConditionsPDF</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheUserGeneralConditionsURLRight()'><b>GotTheUserGeneralConditionsURLRight</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheMySaveIconIsDisplayed()'><b>TheMySaveIconIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheMySaveTextIsDisplayed()'><b>TheMySaveTextIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheNeedHelpIconeIsDisplayed()'><b>TheNeedHelpIconeIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheNeedHelpTextIsDisplayed()'><b>TheNeedHelpTextIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheSellGeneralConditionsTextIsPresent()'><b>TheSellGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@5e57643e</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@133e16fd</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@51b279c9</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,424 @@
+<html>
+<head>
+<title>TestNG:  CitroënHomePageComponents</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>CitroënHomePageComponents</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/69</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 11 14:19:48 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (254 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotAPopupWhenClickingOnNeedHelpBotton()'><b>GotAPopupWhenClickingOnNeedHelpBotton</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink()'><b>GotTheRightUrlWhenClickingOnTheDelieveryStepsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink()'><b>GotTheRightUrlWhenClickingOnTheOrderStepsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingPricingLink()'><b>GotTheRightUrlWhenClickingPricingLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheSellGeneralConditionsPDF()'><b>GotTheSellGeneralConditionsPDF</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheMySaveIconIsDisplayed()'><b>TheMySaveIconIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheMySaveTextIsDisplayed()'><b>TheMySaveTextIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheNeedHelpIconeIsDisplayed()'><b>TheNeedHelpIconeIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheNeedHelpTextIsDisplayed()'><b>TheNeedHelpTextIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheSellGeneralConditionsTextIsPresent()'><b>TheSellGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@3d0f8e03</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@543e710e</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@57f23557</td></tr>
+</table><p>
+</body>
+</html>

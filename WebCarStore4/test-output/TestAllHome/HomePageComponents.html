@@ -1,0 +1,2199 @@
+<html>
+<head>
+<title>TestNG:  HomePageComponents</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>HomePageComponents</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>199/27/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 10 16:13:07 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>544 seconds (544851 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Citroën.HPCompItTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Citroën.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompItTest.java:78)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1429351083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1429351083'><pre>java.lang.AssertionError
+	at Citroën.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompItTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Citroën.HPCompESTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Citroën.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompESTest.java:78)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2096539129", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2096539129'><pre>java.lang.AssertionError
+	at Citroën.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompESTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: DS.HPCompItTest</td>
+<td><div><pre>java.lang.AssertionError
+	at DS.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompItTest.java:78)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1003206025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1003206025'><pre>java.lang.AssertionError
+	at DS.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompItTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: DS.HPCompESTest</td>
+<td><div><pre>java.lang.AssertionError
+	at DS.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompESTest.java:78)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace722417467", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace722417467'><pre>java.lang.AssertionError
+	at DS.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone(HPCompESTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompESTest</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=77.0.3865.90)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2e02443157cd6b41a4ccedf4429b40a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at Peugeot.HomePageComponentsAP.CheckClickOnCookies(HomePageComponentsAP.java:195)
+	at Peugeot.HPCompESTest.GotTheCookiesPopUp(HPCompESTest.java:94)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1868805237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1868805237'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=77.0.3865.90)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e2e02443157cd6b41a4ccedf4429b40a
+	at sun.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at Peugeot.HomePageComponentsAP.CheckClickOnCookies(HomePageComponentsAP.java:195)
+	at Peugeot.HPCompESTest.GotTheCookiesPopUp(HPCompESTest.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@id=&apos;_psaihm_title&apos;]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57941}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 919c0420d7e63acf43db4090294750ee
+*** Element info: {Using=xpath, value=//p[@id=&apos;_psaihm_title&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Peugeot.HomePageComponentsAP.CheckClickOnCookies(HomePageComponentsAP.java:194)
+	at Peugeot.HPCompBeFrTest.GotTheCookiesPopUp(HPCompBeFrTest.java:100)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace888287133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace888287133'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@id=&apos;_psaihm_title&apos;]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57941}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 919c0420d7e63acf43db4090294750ee
+*** Element info: {Using=xpath, value=//p[@id=&apos;_psaihm_title&apos;]}
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Peugeot.HomePageComponentsAP.CheckClickOnCookies(HomePageComponentsAP.java:194)
+	at Peugeot.HPCompBeFrTest.GotTheCookiesPopUp(HPCompBeFrTest.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink(HPCompItTest.java:171)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2048537720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2048537720'><pre>java.lang.AssertionError
+	at Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink(HPCompItTest.java:171)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink(HPCompESTest.java:160)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1238616099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1238616099'><pre>java.lang.AssertionError
+	at Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink(HPCompESTest.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink()'><b>GotTheRightUrlWhenClickingOnTheDelieveryStepsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink(HPCompFrTest.java:218)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1611832218", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1611832218'><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink(HPCompFrTest.java:218)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink(HPCompFrTest.java:227)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1227264471", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1227264471'><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink(HPCompFrTest.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnTheFAQLink(HPCompBeNlTest.java:111)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1528741718", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1528741718'><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnTheFAQLink(HPCompBeNlTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink()'><b>GotTheRightUrlWhenClickingOnTheOrderStepsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Les étapes de mon achat&apos;)]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0ac1596ce8ffb6d0d98c5d99e97cf0d3
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Les étapes de mon achat&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Peugeot.HomePageComponentsAP.GettheUrlwhenClckingOnAlink(HomePageComponentsAP.java:203)
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink(HPCompFrTest.java:208)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1824872646", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1824872646'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Les étapes de mon achat&apos;)]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0ac1596ce8ffb6d0d98c5d99e97cf0d3
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Les étapes de mon achat&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Peugeot.HomePageComponentsAP.GettheUrlwhenClckingOnAlink(HomePageComponentsAP.java:203)
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink(HPCompFrTest.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink(HPCompBeFrTest.java:127)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1407083101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1407083101'><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink(HPCompBeFrTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnUsedCarsLink(HPCompBeNlTest.java:102)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2005028997", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2005028997'><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnUsedCarsLink(HPCompBeNlTest.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>13</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink(HPCompFrTest.java:200)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1611370719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1611370719'><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink(HPCompFrTest.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Le paiement sur Carstore&apos;)]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 915196eab01add0c8e00b03cf07a1754
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Le paiement sur Carstore&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Citroën.HomePageComponentsAC.GettheUrlwhenClckingOnAlink(HomePageComponentsAC.java:20)
+	at Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink(HPCompItTest.java:161)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1666544295", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1666544295'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Le paiement sur Carstore&apos;)]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 915196eab01add0c8e00b03cf07a1754
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Le paiement sur Carstore&apos;)]}
+	at sun.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Citroën.HomePageComponentsAC.GettheUrlwhenClckingOnAlink(HomePageComponentsAC.java:20)
+	at Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink(HPCompItTest.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: DS.HPCompItTest</td>
+<td><div><pre>java.lang.AssertionError
+	at DS.HPCompItTest.GotTheUserGeneralConditionsPage(HPCompItTest.java:106)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1111897955", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1111897955'><pre>java.lang.AssertionError
+	at DS.HPCompItTest.GotTheUserGeneralConditionsPage(HPCompItTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: DS.HPCompESTest</td>
+<td><div><pre>java.lang.AssertionError
+	at DS.HPCompESTest.GotTheUserGeneralConditionsPage(HPCompESTest.java:106)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1932470703", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1932470703'><pre>java.lang.AssertionError
+	at DS.HPCompESTest.GotTheUserGeneralConditionsPage(HPCompESTest.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotToHomePageWhenClickingOnThePeugeotLogo(HPCompFrTest.java:51)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1321203216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1321203216'><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.GotToHomePageWhenClickingOnThePeugeotLogo(HPCompFrTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeNlTest.GotToHomePageWhenClickingOnThePeugeotLogo(HPCompBeNlTest.java:49)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace948250363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace948250363'><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeNlTest.GotToHomePageWhenClickingOnThePeugeotLogo(HPCompBeNlTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Citroën.HPCompItTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Citroën.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone(HPCompItTest.java:90)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1594791957", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1594791957'><pre>java.lang.AssertionError
+	at Citroën.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone(HPCompItTest.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheMySaveTextIsDisplayed()'><b>TheMySaveTextIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;MES SAUVEGARDES&apos;)]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0ac1596ce8ffb6d0d98c5d99e97cf0d3
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;MES SAUVEGARDES&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Peugeot.HomePageComponentsAP.CheckTextMysavePresent(HomePageComponentsAP.java:41)
+	at Peugeot.HPCompFrTest.TheMySaveTextIsDisplayed(HPCompFrTest.java:103)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace919446210", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace919446210'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;MES SAUVEGARDES&apos;)]&quot;}
+  (Session info: chrome=77.0.3865.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:42:28.403Z&apos;
+System info: host: &apos;B1009809&apos;, ip: &apos;10.82.56.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\E562418\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0ac1596ce8ffb6d0d98c5d99e97cf0d3
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;MES SAUVEGARDES&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at Peugeot.HomePageComponentsAP.CheckTextMysavePresent(HomePageComponentsAP.java:41)
+	at Peugeot.HPCompFrTest.TheMySaveTextIsDisplayed(HPCompFrTest.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.ThePageTitleisCorrect(HPCompFrTest.java:32)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace149225732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace149225732'><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.ThePageTitleisCorrect(HPCompFrTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.TheTextUnderThePageTitleIsCorrect(HPCompFrTest.java:45)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1932536213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1932536213'><pre>java.lang.AssertionError
+	at Peugeot.HPCompFrTest.TheTextUnderThePageTitleIsCorrect(HPCompFrTest.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeFrTest.TheTextUnderThePageTitleIsCorrect(HPCompBeFrTest.java:43)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1947020920", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1947020920'><pre>java.lang.AssertionError
+	at Peugeot.HPCompBeFrTest.TheTextUnderThePageTitleIsCorrect(HPCompBeFrTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Citroën.HPCompFrTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Citroën.HPCompFrTest.TheTextUnderThePageTitleIsCorrect(HPCompFrTest.java:54)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace5395829", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace5395829'><pre>java.lang.AssertionError
+	at Citroën.HPCompFrTest.TheTextUnderThePageTitleIsCorrect(HPCompFrTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Citroën.HPCompESTest</td>
+<td><div><pre>java.lang.AssertionError
+	at Citroën.HPCompESTest.TheTextUnderThePageTitleIsCorrect(HPCompESTest.java:60)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace633326333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace633326333'><pre>java.lang.AssertionError
+	at Citroën.HPCompESTest.TheTextUnderThePageTitleIsCorrect(HPCompESTest.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotAPopupWhenClickingOnNeedHelpBotton()'><b>GotAPopupWhenClickingOnNeedHelpBotton</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotAPopupWhenClickingOnNeedHelpBotton()'><b>GotAPopupWhenClickingOnNeedHelpBotton</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotAPopupWhenClickingOnNeedHelpBotton()'><b>GotAPopupWhenClickingOnNeedHelpBotton</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>13</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotFacebookPageWhenClickingTheFacebookIcone()'><b>GotFacebookPageWhenClickingTheFacebookIcone</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheCookiesPopUp()'><b>GotTheCookiesPopUp</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheGeneralInformationPage()'><b>GotTheGeneralInformationPage</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>6</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>4</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnCarAccessoriesLink()'><b>GotTheRightUrlWhenClickingOnCarAccessoriesLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>7</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>4</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>4</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnCarConfiguratorLink()'><b>GotTheRightUrlWhenClickingOnCarConfiguratorLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnProfessionalCarsLink()'><b>GotTheRightUrlWhenClickingOnProfessionalCarsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>13</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnTheDealersLink()'><b>GotTheRightUrlWhenClickingOnTheDealersLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink()'><b>GotTheRightUrlWhenClickingOnTheDelieveryStepsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheDelieveryStepsLink()'><b>GotTheRightUrlWhenClickingOnTheDelieveryStepsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheFAQLink()'><b>GotTheRightUrlWhenClickingOnTheFAQLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink()'><b>GotTheRightUrlWhenClickingOnTheOrderStepsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnTheOrderStepsLink()'><b>GotTheRightUrlWhenClickingOnTheOrderStepsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheRightUrlWhenClickingOnUsedCarsLink()'><b>GotTheRightUrlWhenClickingOnUsedCarsLink</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheRightUrlWhenClickingOnWebsotrePaimentLink()'><b>GotTheRightUrlWhenClickingOnWebsotrePaimentLink</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheRightUrlWhenClickingPricingLink()'><b>GotTheRightUrlWhenClickingPricingLink</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheSellGeneralConditionsPDF()'><b>GotTheSellGeneralConditionsPDF</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheSellGeneralConditionsPDF()'><b>GotTheSellGeneralConditionsPDF</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheSellGeneralConditionsPDF()'><b>GotTheSellGeneralConditionsPDF</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTheUserGeneralConditionsPDF()'><b>GotTheUserGeneralConditionsPDF</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotTheUserGeneralConditionsPage()'><b>GotTheUserGeneralConditionsPage</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTheUserGeneralConditionsURLRight()'><b>GotTheUserGeneralConditionsURLRight</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>1</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>1</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>1</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>1</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>1</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotToHomePageWhenClickingOnTheCitënLogo()'><b>GotToHomePageWhenClickingOnTheCitënLogo</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>1</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>2</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>2</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotToHomePageWhenClickingOnThePeugeotLogo()'><b>GotToHomePageWhenClickingOnThePeugeotLogo</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>1</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>3</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>6</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>3</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotTwiterPageWhenClickingTheTwiterIcone()'><b>GotTwiterPageWhenClickingTheTwiterIcone</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>9</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>4</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>6</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.GotYoutubePageWhenClickingTheyoutubeIcone()'><b>GotYoutubePageWhenClickingTheyoutubeIcone</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>4</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheCookiesTextIsPresent()'><b>TheCookiesTextIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheFacebookIconeIsPresent()'><b>TheFacebookIconeIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheMySaveIconIsDisplayed()'><b>TheMySaveIconIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheMySaveIconIsDisplayed()'><b>TheMySaveIconIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheMySaveIconIsDisplayed()'><b>TheMySaveIconIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheMySaveTextIsDisplayed()'><b>TheMySaveTextIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheMySaveTextIsDisplayed()'><b>TheMySaveTextIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheNeedHelpIconeIsDisplayed()'><b>TheNeedHelpIconeIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheNeedHelpIconeIsDisplayed()'><b>TheNeedHelpIconeIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheNeedHelpIconeIsDisplayed()'><b>TheNeedHelpIconeIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheNeedHelpTextIsDisplayed()'><b>TheNeedHelpTextIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheNeedHelpTextIsDisplayed()'><b>TheNeedHelpTextIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheNeedHelpTextIsDisplayed()'><b>TheNeedHelpTextIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.ThePageTitleBrandisCorrect()'><b>ThePageTitleBrandisCorrect</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.ThePageTitleisCorrect()'><b>ThePageTitleisCorrect</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.ThePeugeotLogoIsDisplayed()'><b>ThePeugeotLogoIsDisplayed</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheSellGeneralConditionsTextIsPresent()'><b>TheSellGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheSellGeneralConditionsTextIsPresent()'><b>TheSellGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheSellGeneralConditionsTextIsPresent()'><b>TheSellGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheTextUnderThePageTitleIsCorrect()'><b>TheTextUnderThePageTitleIsCorrect</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheTwiterIconeIsPresent()'><b>TheTwiterIconeIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompESTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompESTest@4e4aea35</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='Citroën.HPCompESTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: Citroën.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompESTest@517cd4b</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheUserGeneralConditionsTextIsPresent()'><b>TheUserGeneralConditionsTextIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+<tr>
+<td title='Peugeot.HPCompFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompFrTest@6e2c9341</td></tr>
+<tr>
+<td title='Peugeot.HPCompItTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompItTest@32464a14</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompBeFrTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeFrTest@1442d7b5</td></tr>
+<tr>
+<td title='Peugeot.HPCompBeNlTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Peugeot.HPCompBeNlTest</td>
+<td></td>
+<td>0</td>
+<td>Peugeot.HPCompBeNlTest@1efee8e7</td></tr>
+<tr>
+<td title='Citroën.HPCompFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Citroën.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompFrTest@1ee807c6</td></tr>
+<tr>
+<td title='Citroën.HPCompItTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: Citroën.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>Citroën.HPCompItTest@76a4d6c</td></tr>
+<tr>
+<td title='DS.HPCompFrTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: DS.HPCompFrTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompFrTest@6cc7b4de</td></tr>
+<tr>
+<td title='DS.HPCompItTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: DS.HPCompItTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompItTest@32cf48b7</td></tr>
+<tr>
+<td title='DS.HPCompESTest.TheYoutubeIconeIsPresent()'><b>TheYoutubeIconeIsPresent</b><br>Test class: DS.HPCompESTest</td>
+<td></td>
+<td>0</td>
+<td>DS.HPCompESTest@679b62af</td></tr>
+</table><p>
+</body>
+</html>
