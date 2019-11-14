@@ -46,6 +46,7 @@ public class LeadsTestProd {
         System.out.println("This is the page url" + driver.getCurrentUrl());
         WaitS.Wait(1000);
         ElementMethodes.CloseCokies(driver);
+        WaitS.waitForLoad(driver);
         // driver.findElement(By.name("model")).getText();
         driver.findElement(By.name("model")).click();
         WaitS.Wait(3000);
@@ -60,7 +61,7 @@ public class LeadsTestProd {
         WaitS.Wait(2000);
         WaitS.waitForLoad(driver);
         System.out.println("This is the page url*****************************  " + driver.getCurrentUrl());
-
+        System.out.println("////////////////////////////////////////////////////////////////////////////");
         driver.close();
 
     }

@@ -19,7 +19,7 @@ public class InitialiseDrivers {
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         ChromeOptions options = new ChromeOptions();
         // options.addArguments("--incognito");
-        // options.addArguments("--headless");
+        options.addArguments("--headless");
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\E562418\\git\\PSAWSCS\\WebCarStore\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver(capabilities);
