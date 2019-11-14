@@ -31,7 +31,7 @@ public class LeadsTestProd {
     public void Litetest() {
 
         driver.get(
-                "http://fr.store.peugeot.inetpsa.com/Recherche-par-critere?lat=48.856614&lng=2.3522219000000177&LocationL=Paris%2C%20France&etd=0&mbd=1PIAS0000030;");
+                "http://E562418:Fh133499@fr.store.peugeot.inetpsa.com/Recherche-par-critere?lat=48.856614&lng=2.3522219000000177&LocationL=Paris%2C%20France&etd=0&mbd=1PIAS0000030;");
 
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
